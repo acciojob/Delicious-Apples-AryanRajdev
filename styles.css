@@ -1,1 +1,136 @@
 /* your code here */
+body{
+	/* background-color:lightgray; */
+	/* background-color: #282c34; */
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-content:center;
+}
+.product{
+	width:400px;
+	height:500px;
+	display:flex;
+	flex-direction:row;
+	align-content:centre;
+	padding:2px;
+	/* border:2px solid lightgrey; */
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+}
+.controls>i{
+	color:white;
+	font-size:10px;
+	padding:5px;
+}
+.product__photo{
+	width:180px;
+	height:450px;
+	margin: 10px 10px 10px -10px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	/* border:2px solid lightgrey; */
+	/* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); */
+}
+.photo-main{
+	width:100%;
+	height:300px;
+	justify-content:left;
+	background-color:lightgreen;
+	/* align-content:center; */
+}
+
+.photo-main>img{
+	width:60%;
+	height:70%;
+	margin-left:-15px;
+}
+.photo-album{
+	background-color:white;
+	width:90%;
+	height:20%;
+}
+.photo-album>ul{
+	list-style:none;
+	padding:10px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-content:center;
+}
+.photo-album>ul>li{
+	border:1px solid black;
+}
+.photo-album>ul>li>img{
+	width:30px;
+	height:30px;
+}
+.product__info{
+	width:200px;
+	height:450px;
+	padding-top:25px;
+	padding-bottom:25px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-content:center;
+	/* border:2px solid black; */
+}
+.title>h1{
+	font-size:20px;
+	margin-bottom:0px;
+}
+.title>span{
+	color:lightgrey;
+	font-size:10px;
+	margin-top:0px;
+}
+.price{
+	color:red;
+}
+.price>span{
+	font-size:25px;
+	color:red;
+}
+.variant>h3{
+	font-size:15px;
+	color:lightgrey;
+}
+.variant>ul{
+	list-style:none;
+	padding:2px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-content:center;
+}
+.variant>ul>li:first-child{
+	border:1px solid black;
+}
+.variant>ul>li>img{
+	width:25px;
+	height:25px;
+}
+.description>h3{
+	font-size:15px;
+	color:lightgrey;
+}
+.description>ul>li{
+	padding:2px;
+}
+.description>button{
+	width:100px;
+	height:30px;
+	background-color:red;
+	font-size:10px;
+	padding:5px;
+	color:white;
+	border-radius:3px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
